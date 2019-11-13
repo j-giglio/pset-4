@@ -1,0 +1,17 @@
+const readlineSync = require("readline-sync");
+
+let lowerBound = 0;
+let upperBound = 0;
+
+console.log("\n")
+do {
+  lowerBound = Number(readlineSync.question("Lower bound: "));
+  upperBound = Number(readlineSync.question("Upper bound: "));
+} while ((lowerBound > upperBound) || !(Number.isInteger(lowerBound)) || !(Number.isInteger(upperBound)) || (lowerBound > Number.MAX_SAFE_INTEGER) || (upperBound > Number.MAX_SAFE_INTEGER) || (lowerBound < Number.MIN_SAFE_INTEGER) || (upperBound < Number.MIN_SAFE_INTEGER))
+
+let sum = lowerBound;
+
+while (lowerBound <= upperBound){
+  sum = sum + lowerBound++;
+}
+console.log(("\n" + sum + "."))
