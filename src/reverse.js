@@ -8,7 +8,7 @@ console.log("\n")
 
 do {
   positiveInteger = Number(readlineSync.question("Positive integer: "));
-} while (!Number.isInteger(positiveInteger) || positiveInteger > Number.MAX_SAFE_INTEGER || positiveInteger < Number.MIN_SAFE_INTEGER || positiveInteger < 0)
+} while (!Number.isInteger(positiveInteger) || positiveInteger > Number.MAX_SAFE_INTEGER || positiveInteger < 0)
 
 while (positiveInteger != 0){
   stringSegment = positiveInteger % 10;
