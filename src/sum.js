@@ -4,6 +4,7 @@ let lowerBound = 0;
 let upperBound = 0;
 
 console.log("\n")
+
 do {
   lowerBound = Number(readlineSync.question("Lower bound: "));
   upperBound = Number(readlineSync.question("Upper bound: "));
@@ -12,10 +13,13 @@ do {
 if (lowerBound % 2 != 0) {
   ++lowerBound
 }
+
 let sum = 0
+
 for (let i = sum; lowerBound <= upperBound; lowerBound = lowerBound + 2){
   i = i + lowerBound;
   sum = i
 }
+
 sum = sum.toLocaleString("en", { minimumFractionDigits: 0, maximumFractionDigits: 0 });
-console.log(("\n" + sum + "."))
+console.log("\n" + sum + ".\n")
