@@ -21,4 +21,4 @@ while (positiveInteger != 0){
   stringFinal = stringFinal + stringSegment;
 }
 
-console.log("\n" + stringFinal);
+console.log("\n" + stringFinal + "\n");
