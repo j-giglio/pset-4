@@ -20,4 +20,4 @@ while (positiveInteger != 0){
 
 sum = sum.toLocaleString("en", { minimumFractionDigits: 0, maximumFractionDigits: 0 });
 
-console.log("\n" + sum + ".");
+console.log("\n" + sum + ".\n");
