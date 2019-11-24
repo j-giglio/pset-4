@@ -21,4 +21,4 @@ while (divisor != input && doRepeat == 0) {
   }
 }
 
-console.log(message)
+console.log(message+ "\n")
