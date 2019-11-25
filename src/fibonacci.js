@@ -6,7 +6,7 @@ let firstNumber = 0
 
 let secondNumber = 1
 
-let sum = 0
+let sum = 1
 
 console.log("\n");
 
